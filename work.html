@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyectos — Andrea Melendrez</title>
+  <meta name="description" content="Proyectos académicos y personales de Andrea Samantha Melendrez Macias.">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+    <a href="./index.html" class="nav-logo">Andrea <span>M.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menu-btn">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./about.html">Acerca</a></li>
+      <li><a href="./work.html" class="active">Proyectos</a></li>
+      <li><a href="./writing.html">Escritos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <header class="page-header">
+      <div class="page-header-inner">
+        <p class="section-eyebrow">Portafolio</p>
+        <h1 class="page-title">
+          Trabajo <em>& proyectos</em>
+        </h1>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="work-heading">
+      <p class="section-eyebrow">Trabajo reciente</p>
+      <h2 class="section-title" id="work-heading">
+        Lo que he<br><em>construido</em>
+      </h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card" aria-label="Proyecto: Gestor de Taller Mecánico">
+          <header class="project-header">
+            <span class="project-number" aria-hidden="true">01</span>
+            <span class="project-status status-done" role="status">Terminado</span>
+          </header>
+          <h3 class="project-title">Gestor de Taller Mecánico</h3>
+          <p class="project-desc">
+            Software de gestión completo para un taller mecánico. Incluye módulo de
+            órdenes de trabajo, catálogo de refacciones con control de inventario,
+            registro de clientes y ventas. Diseñado para operadores no técnicos.
+          </p>
+          <footer class="project-footer">
+            <div class="project-tags" aria-label="Tecnologías">
+              <span class="tag">Java</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Swing</span>
+            </div>
+            <time class="project-year" datetime="2025">2025</time>
+          </footer>
+        </article>
+
+        <article class="project-card" aria-label="Proyecto: UNO SPIN">
+          <header class="project-header">
+            <span class="project-number" aria-hidden="true">02</span>
+            <span class="project-status status-progress" role="status">En proceso</span>
+          </header>
+          <h3 class="project-title">UNO SPIN</h3>
+          <p class="project-desc">
+            Versión digital del juego de cartas UNO SPIN. Lógica de turnos, mazo,
+            reglas especiales (+2, +4, cambio de color) y la mecánica del spinner
+            implementadas desde cero en Java orientado a objetos.
+          </p>
+          <footer class="project-footer">
+            <div class="project-tags" aria-label="Tecnologías">
+              <span class="tag">Java</span>
+              <span class="tag">OOP</span>
+            </div>
+            <time class="project-year" datetime="2026">2026</time>
+          </footer>
+        </article>
+
+        <article class="project-card" aria-label="Proyecto: Portafolio Web">
+          <header class="project-header">
+            <span class="project-number" aria-hidden="true">03</span>
+            <span class="project-status status-progress" role="status">En proceso</span>
+          </header>
+          <h3 class="project-title">Restaurante Wonderland</h3>
+          <p class="project-desc">
+            Software de gestion para un restaurante, que va desde levantar una comanda  hasta el pago de esta misma
+          </p>
+          <footer class="project-footer">
+            <div class="project-tags" aria-label="Tecnologías">
+              <span class="tag">JAVA</span>
+              <span class="tag">MySQL</span>
+              
+            </div>
+            <time class="project-year" datetime="2026">2026</time>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="table-heading">
+      <p class="section-eyebrow">Resumen</p>
+      <h2 class="section-title" id="table-heading">
+        Experiencia<br><em>académica</em>
+      </h2>
+
+      <div class="table-wrapper">
+        <table class="experience-table" aria-label="Tabla de proyectos académicos">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Proyecto</th>
+              <th scope="col">Tecnología</th>
+              <th scope="col">Año</th>
+              <th scope="col">Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-num">01</td>
+              <td class="table-name">Gestor de Taller Mecánico</td>
+              <td><span class="tag">Java</span> <span class="tag">MySQL</span></td>
+              <td><time datetime="2025">2025</time></td>
+              <td><span class="project-status status-done">Terminado</span></td>
+            </tr>
+            <tr>
+              <td class="table-num">02</td>
+              <td class="table-name">UNO SPIN</td>
+              <td><span class="tag">Java</span></td>
+              <td><time datetime="2026">2026</time></td>
+              <td><span class="project-status status-progress">En proceso</span></td>
+            </tr>
+            <tr>
+              <td class="table-num">03</td>
+              <td class="table-name">Restaurante Wonderland</td>
+              <td><span class="tag">JAVA</span> <span class="tag">MySQL</span></td>
+              <td><time datetime="2025">2025</time></td>
+              <td><span class="project-status status-progress">Terminado</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="main-footer" role="contentinfo">
+    <p class="footer-left">Andrea <span>Melendrez</span> — Software Engineer</p>
+    <p class="footer-right">© 2026 · ITSON · Ciudad Obregón</p>
+  </footer>
+</body>
+</html>

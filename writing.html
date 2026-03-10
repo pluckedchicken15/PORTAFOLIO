@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escritos — Andrea Melendrez</title>
+  <meta name="description" content="Artículos y reflexiones sobre desarrollo de software por Andrea Melendrez.">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+    <a href="./index.html" class="nav-logo">Andrea <span>M.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menu-btn">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./about.html">Acerca</a></li>
+      <li><a href="./work.html">Proyectos</a></li>
+      <li><a href="./writing.html" class="active">Escritos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <header class="page-header">
+      <div class="page-header-inner">
+        <p class="section-eyebrow">Blog</p>
+        <h1 class="page-title">
+          Mis <em>escritos</em>
+        </h1>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="writing-heading">
+      <p class="section-eyebrow">Artículos</p>
+      <h2 class="section-title" id="writing-heading">
+        Reflexiones sobre<br><em>tecnología y código</em>
+      </h2>
+
+      <ul class="writing-list" role="list">
+
+        <li>
+          <article>
+            <a class="writing-item" href="#" aria-label="Leer artículo: La importancia del HTML Semántico">
+              <div>
+                <h3 class="writing-title">La importancia del HTML Semántico</h3>
+                <p class="writing-meta">Accesibilidad · Web · <time datetime="2026">2026</time></p>
+              </div>
+              <span class="writing-arrow" aria-hidden="true">→</span>
+            </a>
+            <div class="writing-excerpt">
+              <p>
+                Escribir buen HTML no es solo para que el código "funcione".
+                Es para que los navegadores, motores de búsqueda y lectores
+                de pantalla entiendan el <em>significado</em> detrás del contenido.
+                Un <code>&lt;nav&gt;</code> no es lo mismo que un
+                <code>&lt;div class="nav"&gt;</code>.
+              </p>
+            </div>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <a class="writing-item" href="#" aria-label="Leer artículo: Por qué aprender Java primero">
+              <div>
+                <h3 class="writing-title">Por qué aprender Java primero tiene sentido</h3>
+                <p class="writing-meta">Programación · Opinión · <time datetime="2026">2026</time></p>
+              </div>
+              <span class="writing-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <a class="writing-item" href="#" aria-label="Leer artículo: Diseñar bases de datos desde cero">
+              <div>
+                <h3 class="writing-title">Diseñar bases de datos desde cero: lo que aprendí</h3>
+                <p class="writing-meta">Base de Datos · MySQL · <time datetime="2026">2026</time></p>
+              </div>
+              <span class="writing-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="main-footer" role="contentinfo">
+    <p class="footer-left">Andrea <span>Melendrez</span> — Ingenieria en Software</p>
+    <p class="footer-right">© 2026 · ITSON · Ciudad Obregón</p>
+  </footer>
+</body>
+</html>

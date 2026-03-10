@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — Andrea Melendrez</title>
+  <meta name="description" content="Contacta a Andrea Samantha Melendrez Macias, estudiante de Ingeniería en Software.">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+    <a href="./index.html" class="nav-logo">Andrea <span>M.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menu-btn">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./about.html">Acerca</a></li>
+      <li><a href="./work.html">Proyectos</a></li>
+      <li><a href="./writing.html">Escritos</a></li>
+      <li><a href="./contact.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <header class="page-header">
+      <div class="page-header-inner">
+        <p class="section-eyebrow">Hablemos</p>
+        <h1 class="page-title">
+          Contác<em>tame</em>
+        </h1>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="contact-heading">
+      <h2 class="visually-hidden" id="contact-heading">Formulario de contacto</h2>
+
+      <div class="contact-grid">
+
+        <!-- Info de contacto -->
+        <div class="contact-info">
+          <h3>¿Tienes un proyecto<br>en mente?</h3>
+          <p>
+            Estoy abierta a colaboraciones, prácticas profesionales
+            y oportunidades académicas. Escríbeme y con gusto platicamos.
+          </p>
+
+          <address class="contact-details">
+            <div class="contact-item">
+              <span class="contact-item-icon" aria-hidden="true">✉️</span>
+              <div class="contact-item-text">
+                <p>Correo</p>
+                <a href="mailto:andrea.melendrez252774@potros.itson.edu.mx">
+                  andrea.melendrez252774@potros.itson.edu.mx
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item-icon" aria-hidden="true">📱</span>
+              <div class="contact-item-text">
+                <p>Teléfono</p>
+                <a href="tel:+526441689992">644 168 9992</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item-icon" aria-hidden="true">📍</span>
+              <div class="contact-item-text">
+                <p>Ubicación</p>
+                <span>Ciudad Obregón, Sonora, MX</span>
+              </div>
+            </div>
+          </address>
+        </div>
+
+        <!-- Formulario -->
+        <div>
+          <form
+            class="contact-form"
+            name="form_contacto"
+            method="post"
+            action="#"
+            novalidate
+            aria-label="Formulario de contacto"
+          >
+
+            <div class="form-group">
+              <label for="nombre">Nombre completo</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+                minlength="3"
+                maxlength="100"
+                placeholder="Tu nombre"
+                autocomplete="name"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="correo">Correo electrónico</label>
+              <input
+                type="email"
+                id="correo"
+                name="correo"
+                required
+                minlength="5"
+                maxlength="100"
+                placeholder="correo@ejemplo.com"
+                autocomplete="email"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono <span style="color:var(--text-muted); font-size:0.65rem;">(opcional)</span></label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                pattern="[0-9]{10}"
+                placeholder="6441234567"
+                autocomplete="tel"
+              >
+            </div>
+
+            <div class="form-group">
+              <label for="motivo">Motivo del mensaje</label>
+              <select id="motivo" name="motivo" required>
+                <option value="">— Selecciona —</option>               
+                <option value="contratacion">Contratación / prácticas</option>
+                <option value="colaboracion">Colaboración en proyecto</option>
+              </select>
+            </div>
+
+            <fieldset class="form-group" style="border:none; padding:0;">
+              <legend style="font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--text-muted); margin-bottom:10px;">
+                Preferencia de contacto
+              </legend>
+              <div class="radio-group">
+                <label>
+                  <input type="radio" name="preferencia" value="email" checked>
+                  Por email
+                </label>
+                <label>
+                  <input type="radio" name="preferencia" value="telefono">
+                  Por teléfono
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="5"
+                placeholder="Cuéntame en qué puedo ayudarte..."
+                maxlength="2000"
+              ></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Enviar mensaje →</button>
+              <button type="reset" class="btn btn-outline">Limpiar</button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="main-footer" role="contentinfo">
+    <p class="footer-left">Andrea <span>Melendrez</span> — Ingenieria en Software</p>
+    <p class="footer-right">© 2026 · ITSON · Ciudad Obregón</p>
+  </footer>
+</body>
+</html>

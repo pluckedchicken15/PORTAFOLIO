@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrea Melendrez — Software Engineer</title>
+  <meta name="description" content="Portafolio de Andrea Samantha Melendrez Macias, estudiante de Ingeniería en Software.">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+
+  <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+    <a href="./index.html" class="nav-logo">Andrea <span>M.</span></a>
+
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menu-btn">
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="#sobre-mi" class="active">Inicio</a></li>
+      <li><a href="./about.html">Acerca</a></li>
+      <li><a href="./work.html">Proyectos</a></li>
+      <li><a href="./writing.html">Escritos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="sobre-mi">
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-badge">Disponible para colaboraciones</p>
+
+      <h1 class="hero-name">
+        Andrea<br>Samantha<br>Melendrez
+      </h1>
+
+      <p class="hero-title">Ingeniería en Software · ITSON</p>
+
+      <p class="hero-description">
+        Cuando me propongo algo lo cumplo. Busco siempre
+        la <strong>mejor solución</strong> a cada problema —
+        desde interfaces web hasta sistemas de escritorio.
+      </p>
+
+      <div class="hero-cta">
+        <a href="./work.html" class="btn btn-primary">Ver proyectos →</a>
+        <a href="./contact.html" class="btn btn-outline">Contáctame</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">0<span class="accent">+</span></span>
+          <span class="stat-label">Proyectos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">0<span class="accent">+</span></span>
+          <span class="stat-label">Tecnologías</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">0<span class="accent">°</span></span>
+          <span class="stat-label">Año carrera</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <figure class="hero-photo-wrapper">
+        <img
+          class="hero-photo"
+          src="./img/yo.jpg"
+          alt="Foto de Andrea Samantha Melendrez Macias"
+          width="320" height="400"
+          loading="eager"
+        >
+        <figcaption class="hero-photo-label">
+          <p>Estudiante de</p>
+          <strong>Ing. Software</strong>
+        </figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section" id="habilidades" aria-labelledby="skills-heading">
+      <p class="section-eyebrow">Stack técnico</p>
+      <h2 class="section-title" id="skills-heading">
+        Tecnologías que<br><em>estoy dominando</em>
+      </h2>
+
+      <div class="skills-grid" role="list">
+
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">🌐</span>
+          <h3 class="skill-name">HTML5 Semántico</h3>
+          <p class="skill-level">Intermedio</p>
+          <div class="skill-bar" role="meter" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel HTML5: 70%">
+            <div class="skill-fill" style="width:70%;"></div>
+          </div>
+        </article>
+
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">☕</span>
+          <h3 class="skill-name">Java</h3>
+          <p class="skill-level">Intermedio</p>
+          <div class="skill-bar" role="meter" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel Java: 65%">
+            <div class="skill-fill" style="width:65%;"></div>
+          </div>
+        </article>
+
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">🐍</span>
+          <h3 class="skill-name">Python</h3>
+          <p class="skill-level">Básico</p>
+          <div class="skill-bar" role="meter" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel Python: 45%">
+            <div class="skill-fill" style="width:45%;"></div>
+          </div>
+        </article>
+
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">🗄️</span>
+          <h3 class="skill-name">Bases de Datos</h3>
+          <p class="skill-level">Básico–Intermedio</p>
+          <div class="skill-bar" role="meter" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel Bases de Datos: 55%">
+            <div class="skill-fill" style="width:55%;"></div>
+          </div>
+        </article>
+
+      </div>
+
+    <section class="section" id="proyectos" aria-labelledby="projects-heading">
+      <p class="section-eyebrow">Trabajo reciente</p>
+      <h2 class="section-title" id="projects-heading">
+        Proyectos que<br><em>cuentan historias</em>
+      </h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card" aria-label="Proyecto: Gestor de Taller Mecánico">
+          <header class="project-header">
+            <span class="project-number" aria-hidden="true">01</span>
+            <span class="project-status status-done" role="status">Terminado</span>
+          </header>
+          <h3 class="project-title">Gestor de Taller Mecánico</h3>
+          <p class="project-desc">
+            Software de gestión completo para taller mecánico: órdenes de trabajo,
+            inventario de refacciones, ventas y reportes. Aplicación de escritorio
+            con interfaz intuitiva para operadores no técnicos.
+          </p>
+          <footer class="project-footer">
+            <div class="project-tags" aria-label="Tecnologías usadas">
+              <span class="tag">Java</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <time class="project-year" datetime="2025">2025</time>
+          </footer>
+        </article>
+
+        <article class="project-card" aria-label="Proyecto: UNO SPIN">
+          <header class="project-header">
+            <span class="project-number" aria-hidden="true">02</span>
+            <span class="project-status status-progress" role="status">En proceso</span>
+          </header>
+          <h3 class="project-title">UNO SPIN</h3>
+          <p class="project-desc">
+            Versión digital del clásico juego de cartas UNO SPIN.
+            Lógica de juego completa, turnos, reglas especiales y
+            la mecánica del spinner implementadas desde cero en Java.
+          </p>
+          <footer class="project-footer">
+            <div class="project-tags" aria-label="Tecnologías usadas">
+              <span class="tag">Java</span>
+            </div>
+            <time class="project-year" datetime="2026">2026</time>
+          </footer>
+        </article>
+
+        <article class="project-card" aria-label="Proyecto: Portafolio Web">
+          <header class="project-header">
+            <span class="project-number" aria-hidden="true">03</span>
+            <span class="project-status status-progress" role="status">Terminado</span>
+          </header>
+          <h3 class="project-title">Restaurante Wonderland</h3>
+          <p class="project-desc">
+           Software de gestion para un restaurante, que va desde levantar una comanda  hasta el pago de esta misma
+          
+          </p>
+          <footer class="project-footer">
+            <div class="project-tags" aria-label="Tecnologías usadas">
+              <span class="tag">JAVA</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <time class="project-year" datetime="2025">2025</time>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="escritos" aria-labelledby="writing-heading">
+      <p class="section-eyebrow">Blog</p>
+      <h2 class="section-title" id="writing-heading">
+        Pensamientos<br><em>sobre tecnología</em>
+      </h2>
+
+      <ul class="writing-list" role="list">
+        <li>
+          <a class="writing-item" href="./writing.html" aria-label="Leer: La importancia del HTML Semántico">
+            <div>
+              <h3 class="writing-title">La importancia del HTML Semántico</h3>
+              <p class="writing-meta">Accesibilidad · Web Development · 2026</p>
+            </div>
+            <span class="writing-arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      </ul>
+
+      <div style="margin-top: 40px;">
+        <a href="./writing.html" class="btn btn-outline">Ver todos los escritos</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="main-footer" role="contentinfo">
+    <p class="footer-left">
+      Andrea <span>Melendrez</span> — Ingenieria en Software
+    </p>
+    <p class="footer-right">© 2026 · ITSON · Ciudad Obregón</p>
+  </footer>
+</body>
+</html>

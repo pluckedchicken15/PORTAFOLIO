@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acerca — Andrea Melendrez</title>
+  <meta name="description" content="Sobre Andrea Samantha Melendrez Macias, estudiante de Ingeniería en Software.">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <nav class="main-nav" role="navigation" aria-label="Navegación principal">
+    <a href="./index.html" class="nav-logo">Andrea <span>M.</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" id="menu-btn">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="./index.html">Inicio</a></li>
+      <li><a href="./about.html" class="active">Acerca</a></li>
+      <li><a href="./work.html">Proyectos</a></li>
+      <li><a href="./writing.html">Escritos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ══ PAGE HEADER ══ -->
+    <header class="page-header">
+      <div class="page-header-inner">
+        <p class="section-eyebrow">Conóceme</p>
+        <h1 class="page-title">
+          Sobre <em>mí</em>
+        </h1>
+      </div>
+    </header>
+
+    <!-- ══ ABOUT ══ -->
+    <section class="section" aria-labelledby="about-heading">
+      <div class="about-grid">
+
+        <div class="about-text">
+          <h2 id="about-heading" class="section-title" style="margin-bottom: 28px;">
+            Determinada.<br><em>Curiosa. En progreso.</em>
+          </h2>
+          <p>
+            Soy <strong>Andrea Samantha Melendrez Macias</strong>, estudiante de
+            Ingeniería en Software en el ITSON, Ciudad Obregón. Cuando me propongo
+            algo lo cumplo y siempre busco la mejor solución a los problemas.
+          </p>
+          <p>
+            Me apasiona construir software que realmente funcione y que las personas
+            puedan usar sin fricción. Desde aplicaciones de escritorio hasta sitios
+            web, disfruto cada capa del proceso.
+          </p>
+          <p>
+            Actualmente aprendiendo <strong>HTML5 semántico</strong>,
+            <strong>Java</strong>, <strong>Python</strong> y diseño de
+            <strong>bases de datos relacionales</strong>.
+          </p>
+        </div>
+
+        <div>
+          <p class="section-eyebrow" style="margin-bottom: 28px;">Metodología de aprendizaje</p>
+          <ol class="about-process" aria-label="Proceso de aprendizaje">
+
+            <li class="process-item">
+              <span class="process-number" aria-hidden="true">01</span>
+              <div class="process-content">
+                <h3>Leer la documentación oficial</h3>
+                <p>La fuente primaria siempre es la más confiable.</p>
+              </div>
+            </li>
+
+            <li class="process-item">
+              <span class="process-number" aria-hidden="true">02</span>
+              <div class="process-content">
+                <h3>Ver ejemplos de código</h3>
+                <p>Contextualizar los conceptos con casos reales.</p>
+              </div>
+            </li>
+
+            <li class="process-item">
+              <span class="process-number" aria-hidden="true">03</span>
+              <div class="process-content">
+                <h3>Practicar escribiendo yo misma</h3>
+                <p>La memoria muscular y los errores propios enseñan más.</p>
+              </div>
+            </li>
+
+            <li class="process-item">
+              <span class="process-number" aria-hidden="true">04</span>
+              <div class="process-content">
+                <h3>Corregir y validar</h3>
+                <p>Iterar hasta que funcione correctamente.</p>
+              </div>
+            </li>
+
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══ SKILLS ══ -->
+    <section class="section" aria-labelledby="skills-heading">
+      <p class="section-eyebrow">Stack técnico</p>
+      <h2 class="section-title" id="skills-heading">
+        Tecnologías que<br><em>estoy dominando</em>
+      </h2>
+      <div class="skills-grid" role="list">
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">🌐</span>
+          <h3 class="skill-name">HTML5 Semántico</h3>
+          <p class="skill-level">Intermedio</p>
+          <div class="skill-bar" role="meter" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel HTML5: 70%">
+            <div class="skill-fill" style="width:70%;"></div>
+          </div>
+        </article>
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">☕</span>
+          <h3 class="skill-name">Java</h3>
+          <p class="skill-level">Intermedio</p>
+          <div class="skill-bar" role="meter" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel Java: 65%">
+            <div class="skill-fill" style="width:65%;"></div>
+          </div>
+        </article>
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">🐍</span>
+          <h3 class="skill-name">Python</h3>
+          <p class="skill-level">Básico</p>
+          <div class="skill-bar" role="meter" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel Python: 45%">
+            <div class="skill-fill" style="width:45%;"></div>
+          </div>
+        </article>
+        <article class="skill-card" role="listitem">
+          <span class="skill-icon" aria-hidden="true">🗄️</span>
+          <h3 class="skill-name">Bases de Datos</h3>
+          <p class="skill-level">Básico–Intermedio</p>
+          <div class="skill-bar" role="meter" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Nivel BD: 55%">
+            <div class="skill-fill" style="width:55%;"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="main-footer" role="contentinfo">
+    <p class="footer-left">Andrea <span>Melendrez</span> —Ingenieria en software</p>
+    <p class="footer-right">© 2026 · ITSON · Ciudad Obregón</p>
+  </footer>
+</body>
+</html>
